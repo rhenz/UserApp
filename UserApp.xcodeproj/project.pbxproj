@@ -74,6 +74,14 @@
 			path = "Date Provider";
 			sourceTree = "<group>";
 		};
+		C9DC4C442A1E6A230016EB93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9F0E5242A1C93E200F043D2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C9F0E5142A1C93E100F043D2 = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +105,7 @@
 				C9F0E5312A1C941D00F043D2 /* Model */,
 				C9F0E52F2A1C93F300F043D2 /* View */,
 				C9F0E5302A1C93F900F043D2 /* View Model */,
-				C9F0E5242A1C93E200F043D2 /* Assets.xcassets */,
+				C9DC4C442A1E6A230016EB93 /* Resources */,
 				C9F0E5262A1C93E200F043D2 /* Preview Content */,
 			);
 			path = UserApp;
