@@ -79,6 +79,16 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
    static var previews: some View {
-      MainView()
+      let mainViewModel = MainViewModel()
+      
+      // Add 6 sample users
+      mainViewModel.addNewUser(User(firstName: "John", lastName: "Doe", dateOfBirth: Date()))
+      mainViewModel.addNewUser(User(firstName: "Jane", lastName: "Doe", dateOfBirth: Date()))
+      mainViewModel.addNewUser(User(firstName: "Bob", lastName: "Smith", dateOfBirth: Date()))
+      mainViewModel.addNewUser(User(firstName: "Alice", lastName: "Johnson", dateOfBirth: Date()))
+      mainViewModel.addNewUser(User(firstName: "Tom", lastName: "Hanks", dateOfBirth: Date()))
+      mainViewModel.addNewUser(User(firstName: "Emma", lastName: "Watson", dateOfBirth: Date()))
+      
+      return MainView(mainViewModel: mainViewModel)
    }
 }
