@@ -2,6 +2,9 @@
 
 UserApp is an iOS app that allows users to manage a list of `User`s. The app is built using Swift and SwiftUI, and follows the MVVM architecture pattern. The app also includes unit testing to ensure that the code works as expected.
 
+
+### Xcode Version Used: 14.3
+
 ## Technologies Used
 
 - Swift: The primary programming language used to build the app.
