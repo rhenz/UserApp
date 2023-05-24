@@ -11,7 +11,7 @@ final class AddUserViewModel: ObservableObject {
    
    // MARK: - Types
    
-   enum State {
+   enum State: Equatable {
       case initial
       case successAddingNewUser
       case error(message: String)
