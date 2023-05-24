@@ -14,7 +14,6 @@ final class MainViewModel: ObservableObject {
    @Published private(set) var users: [User] = []
    @Published private(set) var lastAddeduser: User?
    
-   private var unsortedUsers: [User] = []
    private(set) var usersPreviouslySorted: Bool = false
    
    
