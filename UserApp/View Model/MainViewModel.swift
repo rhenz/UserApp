@@ -40,7 +40,7 @@ final class MainViewModel: ObservableObject {
    }
    
    var lastNamePlaceholder: String {
-      "First Name"
+      "Last Name"
    }
    
    var dateOfBirthPlaceholder: String {
