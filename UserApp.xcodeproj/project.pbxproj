@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C91788C62A1E799B00B962A2 /* AddUserViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91788C52A1E799B00B962A2 /* AddUserViewModelTests.swift */; };
+		C91788C92A1E7DB900B962A2 /* DefaultMinMaxDateProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91788C82A1E7DB900B962A2 /* DefaultMinMaxDateProviderTests.swift */; };
 		C9DC4C3C2A1E50740016EB93 /* NameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C3B2A1E50740016EB93 /* NameValidator.swift */; };
 		C9DC4C3E2A1E50BB0016EB93 /* DefaultNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C3D2A1E50BB0016EB93 /* DefaultNameValidator.swift */; };
 		C9DC4C412A1E54DD0016EB93 /* MinMaxDateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC4C402A1E54DD0016EB93 /* MinMaxDateProvider.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		C91788C52A1E799B00B962A2 /* AddUserViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewModelTests.swift; sourceTree = "<group>"; };
+		C91788C82A1E7DB900B962A2 /* DefaultMinMaxDateProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMinMaxDateProviderTests.swift; sourceTree = "<group>"; };
 		C9DC4C3B2A1E50740016EB93 /* NameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameValidator.swift; sourceTree = "<group>"; };
 		C9DC4C3D2A1E50BB0016EB93 /* DefaultNameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNameValidator.swift; sourceTree = "<group>"; };
 		C9DC4C402A1E54DD0016EB93 /* MinMaxDateProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMaxDateProvider.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C91788C72A1E7DA400B962A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C91788C82A1E7DB900B962A2 /* DefaultMinMaxDateProviderTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C9DC4C392A1E50490016EB93 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +117,7 @@
 		C9DC4C4A2A1E6D610016EB93 /* UserAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				C91788C72A1E7DA400B962A2 /* Models */,
 				C9DC4C522A1E6D970016EB93 /* View Models */,
 			);
 			path = UserAppTests;
@@ -298,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DC4C542A1E6DC40016EB93 /* MainViewModelTests.swift in Sources */,
+				C91788C92A1E7DB900B962A2 /* DefaultMinMaxDateProviderTests.swift in Sources */,
 				C91788C62A1E799B00B962A2 /* AddUserViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
