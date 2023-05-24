@@ -36,6 +36,18 @@ final class MainViewModel: ObservableObject {
       "Users"
    }
    
+   var firstNamePlaceholder: String {
+      "First Name"
+   }
+   
+   var lastNamePlaceholder: String {
+      "First Name"
+   }
+   
+   var dateOfBirthPlaceholder: String {
+      "Date Of Birth"
+   }
+   
    func addNewUser(_ user: User) {
       users.append(user)
       lastAddeduser = user

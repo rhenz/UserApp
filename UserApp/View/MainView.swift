@@ -27,9 +27,9 @@ struct MainView: View {
                   Text(user.lastName)
                   Text(mainViewModel.formattedDate(for: user))
                } else {
-                  Text("First Name")
-                  Text("Last Name")
-                  Text("Date of Birth")
+                  Text(mainViewModel.firstNamePlaceholder)
+                  Text(mainViewModel.lastNamePlaceholder)
+                  Text(mainViewModel.dateOfBirthPlaceholder)
                }
             }
             .padding()
